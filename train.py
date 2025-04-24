@@ -14,7 +14,7 @@ os.environ["WANDB_MODE"] = "offline"
 # WandB 初始化
 wandb.init(
     project="gpt2-small-train",
-    name="bookcorpus-bsz2-epoch3",
+    name="gpt-bsz2-epoch3",
     config={
         "model": "GPT2-small",
         "dataset": "small",
@@ -34,8 +34,8 @@ else:
 
 # 加载 tokenizer 和 数据集（传入本地路径，可修改）
 tokenizer, train_dataset, val_dataset = get_dataset_and_tokenizer(
-    dataset_name="small",
-    dataset_path="./small-117M/",
+    dataset_name="data",
+    dataset_path="./data/",
     debug=True
 )
 

@@ -8,7 +8,7 @@ import itertools
 
 def get_dataset_and_tokenizer(
     dataset_name: str = "small",
-    dataset_path: str = "./small-117M/",
+    dataset_path: str = "./data",
     val_split: float = 0.05,
     block_size: int = 128,
     debug: bool = False
