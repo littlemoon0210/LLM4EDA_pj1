@@ -18,6 +18,34 @@ This project implements the training of a GPT-2 model using the Hugging Face `tr
    pip install -r requirements.txt
    ```
 
+### 3. Download dataset
+
+To begin using this project, you need to download the necessary datasets. You can do this by running the provided Python script, which will automatically fetch and save the datasets in the `data` folder.
+
+#### Steps:
+1. Clone or download the repository to your local machine.
+2. Run the following Python script:
+
+    ```bash
+    python download_dataset.py
+    ```
+
+This will start downloading the datasets, and the progress will be displayed. The script fetches the following datasets:
+
+- webtext
+- small-117M
+- medium-345M
+- large-762M
+- xl-1542M
+
+Each dataset is split into the following parts: `train`, `valid`, and `test`. The downloaded files will be stored as `.jsonl` files in the `data` folder.
+
+For more details, please refer to the following link: [gpt-2-output-dataset](https://github.com/openai/gpt-2-output-dataset.git)
+
+If you prefer, you can also manually download the datasets from the provided links in the script, but the automatic download method is recommended for ease of use.
+
+
+
 ## Usage
 
 ### 1. **Run the Training Script**
