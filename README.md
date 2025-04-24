@@ -8,8 +8,8 @@ This project implements the training of a GPT-2 model using the Hugging Face `tr
 
 ### 1. **Clone the repository**
    ```bash
-   git clone git@github.com:littlemoon0210/LLM4EDA_HW1.git
-   cd LLM4EDA_HW1
+   git clone git@github.com:littlemoon0210/LLM4EDA_pj1.git
+   cd LLM4EDA_pj1
    ```
 
 ### 2. **Install dependencies**
